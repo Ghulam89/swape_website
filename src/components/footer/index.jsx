@@ -52,37 +52,37 @@ const Footer = () => {
                 <h4 className=" tw-text-white tw-font-Sora   tw-text-2xl">FEATURES</h4>
                 <ul className=" tw-leading-8 tw-pt-3 tw-p-0">
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"} className=" tw-text-white">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Buy DMDR ICo
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Token Details
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Roadmap
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Redeem
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       FAQ
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       News
                     </Link>
                   </li>
@@ -94,17 +94,17 @@ const Footer = () => {
                 <h4 className=" tw-text-white tw-font-Sora   tw-text-2xl">LEGAL INFO</h4>
                 <ul className=" tw-leading-8 tw-pt-3 tw-p-0">
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Privacy & Policy
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Terms&Conditions
                     </Link>
                   </li>
                   <li>
-                    <Link to={""} className=" tw-text-white">
+                    <Link to={"#"}  className=" tw-text-white">
                       Whitepaper
                     </Link>
                   </li>
@@ -128,42 +128,42 @@ const Footer = () => {
 
                 <ul className=" p-0 tw-flex tw-gap-2 tw-mt-7">
                   <li>
-                    <Link to={""}>
+                    <Link to={"#"} >
                       <div className=" tw-bg-[#414c54] tw-flex tw-items-center tw-justify-center tw-rounded-full tw-w-12 tw-h-12">
                         <FaTelegram color="white" />
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link to={"#"} >
                       <div className=" tw-bg-[#414c54] tw-flex tw-items-center tw-justify-center tw-rounded-full tw-w-12 tw-h-12">
                         <FaYoutube color="white" />
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link to={"#"} >
                       <div className=" tw-bg-[#414c54] tw-flex tw-items-center tw-justify-center tw-rounded-full tw-w-12 tw-h-12">
                         <FaTwitter color="white" />
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link to={"#"} >
                       <div className=" tw-bg-[#414c54] tw-flex tw-items-center tw-justify-center tw-rounded-full tw-w-12 tw-h-12">
                         <FaInstagram color="white" />
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link to={"#"} >
                       <div className=" tw-bg-[#414c54] tw-flex tw-items-center tw-justify-center tw-rounded-full tw-w-12 tw-h-12">
                         <FaFacebook color="white" />
                       </div>
                     </Link>
                   </li>
                   <li>
-                    <Link to={""}>
+                    <Link to={"#"} >
                       <div className=" tw-bg-[#414c54] tw-flex tw-items-center tw-justify-center tw-rounded-full tw-w-12 tw-h-12">
                         <FaTiktok color="white" />
                       </div>

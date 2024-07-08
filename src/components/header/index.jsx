@@ -52,7 +52,7 @@ const Header = () => {
         <ul className="lg:tw-flex tw-hidden tw-items-center tw-gap-6 tw-font-[Poppins]">
         <li>
             <Link
-              to={"/"}
+              to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white tw-text-sm tw-font-bold"
             >
@@ -61,7 +61,8 @@ const Header = () => {
           </li>
           <li>
             <Link
-              onClick={openPdfInNewTab}
+                 to={"#"} 
+            
               className="tw-text-white tw-text-sm   tw-font-bold"
             >
               Token
@@ -69,7 +70,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                 to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white  tw-text-sm  tw-font-bold"
             >
@@ -78,7 +79,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+               to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white tw-text-sm   tw-font-bold"
             >
@@ -87,7 +88,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                  to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white   tw-text-sm  tw-font-bold"
             >
@@ -96,7 +97,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white  tw-text-sm  tw-font-bold"
             >
@@ -105,7 +106,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                  to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white tw-text-sm   tw-font-bold"
             >
@@ -114,7 +115,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                   to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white  tw-text-sm  tw-font-bold"
             >
@@ -158,7 +159,7 @@ const Header = () => {
           <ul className="tw-p-0 tw-relative tw-px-9 tw-pt-3 tw-border-t">
           <li>
             <Link
-              to={"/"}
+                 to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white tw-text-sm tw-font-bold"
             >
@@ -167,7 +168,8 @@ const Header = () => {
           </li>
           <li>
             <Link
-              onClick={openPdfInNewTab}
+                 to={"#"} 
+           
               className="tw-text-white tw-text-sm   tw-font-bold"
             >
               Token
@@ -175,7 +177,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+              to={"#"}
               onClick={() => setOpen(false)}
               className="tw-text-white  tw-text-sm  tw-font-bold"
             >
@@ -184,7 +186,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                   to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white tw-text-sm   tw-font-bold"
             >
@@ -193,7 +195,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                  to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white   tw-text-sm  tw-font-bold"
             >
@@ -202,7 +204,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                   to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white  tw-text-sm  tw-font-bold"
             >
@@ -211,7 +213,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                  to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white tw-text-sm   tw-font-bold"
             >
@@ -220,7 +222,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to={"/"}
+                   to={"#"} 
               onClick={() => setOpen(false)}
               className="tw-text-white  tw-text-sm  tw-font-bold"
             >
