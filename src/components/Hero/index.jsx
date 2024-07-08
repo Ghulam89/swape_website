@@ -21,9 +21,7 @@ const Hero = () => {
 
   const currencies = [
     { text: 'USDT', imgSrc: require('../../assets/images/USDT.png') },
-    { text: 'BTC', imgSrc: require('../../assets/images/USDT.png') },
-    { text: 'ETH', imgSrc: require('../../assets/images/USDT.png') },
-    // Add more currencies as needed
+    { text: 'Ehtherem', imgSrc: require('../../assets/images/ehtherem.png') },
   ];
 
   return (
@@ -47,22 +45,24 @@ const Hero = () => {
                   <label className='tw-text-white tw-pb-3'>YOU PAY</label>
                   <div className='tw-p-2.5 tw-rounded-xl tw-border tw-border-[#8DE1E4] tw-flex'>
                     <input defaultValue={0} className='tw-bg-transparent tw-text-2xl tw-font-poppins tw-text-white tw-outline-none tw-w-full' />
-                    <button onClick={toggleDropdown} className='tw-py-2 tw-justify-between tw-items-center tw-flex tw-gap-2 tw-px-6 tw-rounded-lg tw-text-white tw-border tw-border-[#8DE1E4]'>
+                    <button onClick={toggleDropdown} className=' tw-py-2 tw-items-center tw-flex tw-gap-2 tw-px-6 tw-rounded-lg tw-text-white tw-border tw-border-[#8DE1E4]'>
                       {selectedCurrency.text}
-                      <img src={selectedCurrency.imgSrc} alt={selectedCurrency.text} />
+                      <div>
+                      <img src={selectedCurrency.imgSrc} className=' tw-w-16' alt={selectedCurrency.text} />
+                      </div>
                       <LiaAngleDownSolid size={25} color='#8DE1E4' />
                     </button>
                   </div>
                   {isDropdownOpen && (
-                    <div className='tw-bg-[#23282a] tw-rounded-lg tw-mt-2 tw-absolute tw-right-0 tw-z-10'>
+                    <div className='tw-bg-[#23282a] tw-rounded-lg  tw-w-44 tw-mt-2 tw-absolute tw-right-0 tw-z-10'>
                       {currencies.map((currency) => (
                         <div
                           key={currency.text}
                           onClick={() => handleCurrencyChange(currency)}
-                          className='tw-px-4 tw-py-2 tw-flex tw-items-center tw-gap-2 tw-cursor-pointer hover:tw-bg-[#8DE1E4] hover:tw-text-black'
+                          className='tw-px-4 tw-py-2 tw-flex tw-justify-between tw-items-center tw-gap-2 tw-cursor-pointer hover:tw-bg-[#8DE1E4] hover:tw-text-black'
                         >
-                          <img src={currency.imgSrc} alt={currency.text} className='tw-w-6 tw-h-6' />
-                          <span>{currency.text}</span>
+                          <img src={currency.imgSrc} alt={currency.text} className='tw-w-10 tw-h-10' />
+                          <span className=' tw-text-white'>{currency.text}</span>
                         </div>
                       ))}
                     </div>
